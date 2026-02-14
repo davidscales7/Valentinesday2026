@@ -259,18 +259,7 @@ export default function HomePage() {
             </div>
 
             {/* Video for us */}
-            <div className="mt-8">
-              <div className="overflow-hidden rounded-3xl bg-gradient-to-br from-slate-100 to-slate-200 shadow-xl">
-                <video 
-                  src="/us1.mp4"
-                  controls
-                  className="w-full"
-                  preload="metadata"
-                >
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-            </div>
+          
 
             {/* Reasons */}
             <h3 className="mt-12 text-2xl font-bold tracking-tight">Reasons I love you</h3>

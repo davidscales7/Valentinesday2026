@@ -1,4 +1,5 @@
-const repo = "YOUR_REPO_NAME"; // e.g. "my-next-site"
+/** @type {import('next').NextConfig} */
+const repo = "Valentinesday2026";
 
 module.exports = {
   output: "export",
