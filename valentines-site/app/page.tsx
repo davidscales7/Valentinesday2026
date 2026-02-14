@@ -4,9 +4,8 @@ import Link from "next/link";
 import { useMemo, useState, useEffect } from "react";
 
 export default function HomePage() {
-  // ✅ GitHub Pages base path support
-  // Set NEXT_PUBLIC_BASE_PATH=/Valentinesday2026 when building for Pages
-  const base = process.env.NEXT_PUBLIC_BASE_PATH || "";
+  // ✅ GitHub Pages base path - hardcoded to match next.config.js
+  const base = "/Valentinesday2026";
   const withBase = (p: string) => `${base}${p}`;
 
   // ✅ your 5 videos in /public
