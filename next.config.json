@@ -1,0 +1,8 @@
+const repo = "YOUR_REPO_NAME"; // e.g. "my-next-site"
+
+module.exports = {
+  output: "export",
+  images: { unoptimized: true },
+  basePath: `/${repo}`,
+  assetPrefix: `/${repo}/`,
+};
