@@ -265,7 +265,7 @@ export default function HomePage() {
   <div className="mt-8">
               <div className="overflow-hidden rounded-3xl bg-gradient-to-br from-slate-100 to-slate-200 shadow-xl">
                 <video 
-                  src="/us1.mp4"
+                  src="/.us1.mp4"
                   controls
                   className="w-full"
                   preload="metadata"
@@ -357,7 +357,7 @@ export default function HomePage() {
             </p>
 
             <div className="mt-6 grid gap-4 sm:grid-cols-2">
-              {["/us1.mp4", "/us2.mp4", "/us3.mp4", "/us4.mp4"].map((src, i) => (
+              {["/.us2.mp4", "./us3.mp4", "/.us4.mp4", "/.us5.mp4"].map((src, i) => (
                 <div 
                   key={src} 
                   className="group aspect-[4/3] overflow-hidden rounded-2xl bg-gradient-to-br from-slate-100 to-slate-200 shadow-lg hover:shadow-2xl transition-all duration-500 hover:scale-105"
